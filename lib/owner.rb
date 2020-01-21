@@ -76,6 +76,6 @@ class Owner
    
    def sell_pets
      self.cats.clear{|c| c.mood}
-     self.dogs.clear
+     self.dogs.clear{|d| d.mood}
    end 
 end
