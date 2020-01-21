@@ -78,7 +78,7 @@ class Owner
     all_pets = []
     all_pets = cats + dogs
     all_pets.each do |p|
-      p.owner.clear
+      p.owner = nil
       p.mood = "nervous"
     end 
    end
