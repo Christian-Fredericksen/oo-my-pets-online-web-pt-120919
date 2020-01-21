@@ -79,6 +79,7 @@ class Owner
     # self.dogs.clear {|d| d.mood = "nervous"}
     @@all_pets{:cats} << self.cats
     
+    
   
    end
 end
