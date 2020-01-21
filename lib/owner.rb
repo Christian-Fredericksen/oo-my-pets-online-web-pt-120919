@@ -81,7 +81,6 @@ class Owner
        d.mood
         end
       end
-    end
-     
+     end
    end 
 end
