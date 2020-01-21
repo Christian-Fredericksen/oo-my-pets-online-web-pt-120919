@@ -75,12 +75,7 @@ class Owner
    
    
    def sell_pets
-     if Cat.all.clear do |c|
-       c.mood
-     else Dog.all.clear do |d|
-       d.mood
-        end
-      end
-     end
+     self.cats.clear
+     self.dogs.clear
    end 
 end
