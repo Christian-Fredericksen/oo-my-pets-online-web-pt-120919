@@ -75,6 +75,6 @@ class Owner
    
    
    def sell_pets
-     Cat.all.clear
+     Cat.all.clear || Dog.all.clear
    end
 end
