@@ -77,8 +77,8 @@ class Owner
   def sell_pets
     # self.cats.clear {|c| c.mood = "nervous"}
     # self.dogs.clear {|d| d.mood = "nervous"}
-    @@all_pets{:cats} << self.cats
-    @@all_pets{:dogs} << self.dogs
+    @@all_pets[:cats] << self.cats
+    @@all_pets[:dogs] << self.dogs
     
   
    end
