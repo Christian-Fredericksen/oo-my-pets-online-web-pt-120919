@@ -76,7 +76,7 @@ class Owner
    
   def sell_pets
     all_pets = []
-    all_pets = cats + dogs
+    all_pets = cats.clear + dogs.clear
     
   
    end
